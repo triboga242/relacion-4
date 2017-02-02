@@ -11,17 +11,17 @@ public class E_33 {
 		imprimeArray (array);
 		imprimeArray (insertaArray(array, valor, indice));		
 	}
-	public static int []insertaArray (int []array1, int val, int ind){
-		int []arrayI=new int [array1.length+1];
-		int cont=0;
-		
-		for (int i=0;i<arrayI.length;i++){
-			if (i==ind){
-				arrayI[i]=val;
-			}
-			else{
-				arrayI[i]=array1[cont];	
-				cont++;	
+
+	public static int[] insertaArray(int[] array1, int val, int ind) {
+		int[] arrayI = new int[array1.length + 1];
+		int cont = 0;
+
+		for (int i = 0; i < arrayI.length; i++) {
+			if (i == ind) {
+				arrayI[i] = val;
+			} else {
+				arrayI[i] = array1[cont];
+				cont++;
 			}
 		}
 		return arrayI;

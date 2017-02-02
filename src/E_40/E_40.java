@@ -9,7 +9,7 @@ public class E_40 {
 		
 		array=ordenaSeleccion(array);
 		
-		imprimeArray(array);
+		imprimeArray(array);		
 	}
 	public static void imprimeArray(int []array){
 		int f;
